@@ -1,0 +1,972 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border: 0px;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 999px;
+    margin: 0 auto;
+}
+.float{
+    float: left;
+}
+.clr{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+/*------------------------Main css start now------------------------*/
+.logo_part{
+    height: 110px;
+    width: 200px;
+}
+.logo_part img{
+    padding: 18px 0px 14px 0px;
+}
+.info_part{
+    height: 110px;
+    width: 799px;
+}
+.info_part .email{
+    float: right;
+}
+.info_part .email ul{
+    font-family: Myriad Pro;
+}
+.info_part .email ul li img{
+    padding-top: 17px;
+}
+.info_part .email ul li i{
+    color: #414141;
+}
+.info_part .email ul li .fa-envelope{
+    margin-left: 42px;
+}
+.info_part .email ul li .fa-phone{
+    margin-left: 72px;
+}
+.info_part .email ul li span{
+    font-family: Myriad Pro;
+    font-weight: 400;
+    color: #414141;
+    font-size: 13px;
+    float: right;
+}
+.info_part .email ul li img{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -136px;
+}
+.option_bar{
+    width: 144px;
+    height: 22px;
+    margin-left: 29px;
+    margin-bottom: 12px;
+    margin-top: 17px;
+    font-family: Myriad Pro;
+    font-size: 13px;
+    font-weight: 300;
+    color: #414141;
+    padding-left: 40px;
+    position: relative;
+}
+/*------------------------header_part_ends------------------------*/
+.navigation_part{
+    height: 60px;
+    background: rgba(157,102,169,1);
+    background: -moz-linear-gradient(top, rgba(157,102,169,1) 0%, rgba(157,102,169,1) 49%, rgba(145,84,157,1) 52%, rgba(145,84,157,1) 100%);
+    border-bottom: 4px solid #98ca48;
+}
+.navigation_part .menu{
+    width: 600px;
+    line-height: 60px;
+}
+.navigation_part .menu ul li{
+    list-style: none;
+}
+.navigation_part .menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: #e7e6e6;
+    font-size: 13px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+}
+.active{
+    background: #713e7c;
+    color: #fff;
+    box-shadow: inset 1px 1px 0px 0px rgba(28,16,31,1);
+}
+.navigation_part .menu ul li a:hover{
+    background: #743D79;
+    color: #fff;
+    transition: all linear .5s;
+}
+.search{
+    width: 399px;
+    height: 60px;
+    line-height: 60px;
+}
+.search .icon{
+    width: 215px;
+    height: 33px;
+    border: 2px solid #AD7BB0;
+    border-radius: 30px;
+    color: #fff;
+    background: #8E4A93;
+    padding: 0px 50px 0px 10px;
+    margin-left: 184px;
+}
+.search i{
+    color: #fff;
+    margin-left: -40px;
+}
+/*------------------------menu_part_ends------------------------*/
+ul.banner {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.container {
+  position: relative;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.jtaCarousel {
+  position: relative;
+  overflow: hidden;
+}
+.banner-controls {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.banner-prev-position {
+  left: 0;
+  padding-left: .75em;
+}
+.banner-next-position {
+  right: 0;
+  padding-right: .75em;
+}
+.banner-control-button {
+  border-radius: 100%;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: opacity 100ms ease-in-out;
+  transition: opacity 100ms ease-in-out;
+}
+.banner-control-button:hover { opacity: .5; }
+
+.banner {  width: calc(100% * 5);
+}
+.banner-item {
+  float: left;
+  width: calc(100% / 5);
+}
+.banner-item > div {
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 450px;
+  color: #fff;
+}
+.banner-location {
+  position: absolute;
+  z-index: 2;
+  bottom: .75em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 0;
+  line-height: 1;
+  cursor: default;
+    opacity: 0;
+}
+.banner-indicator {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  width: .75em;
+  height: .75em;
+  border-radius: 100%;
+  margin-left: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.banner-indicator:first-child { margin-left: 0; }
+.banner-indicator.selected {
+  background-color: white;
+  cursor: auto;
+}
+.first{
+    background: url(../images/banner.jpg);
+}
+.second{
+    background: url(../images/banner2.jpg);
+}
+.third{
+    background: url(../images/banner3.jpg);
+}
+.four{
+    background: url(../images/banner4.jpg);
+}
+.five{
+    background: url(../images/banner5.jpg);
+}
+.container i{
+    color: #252525;
+}
+.banner-item > div{
+    line-height: normal;
+}
+.container li h2{
+    text-align: left;
+    color: #252525;
+    padding-top: 67px;
+    font-family: Myriad Pro;
+    font-size: 30px;
+    font-weight: 300;
+}
+.container li h4{
+    text-align: left;
+    color: #252525;
+    font-family: Myriad Pro;
+    font-size: 20px;
+    font-weight: 300;
+}
+.container li h3{
+    text-align: left;
+    color: #84499a;
+    padding-top: 67px;
+    font-family: Myriad Pro;
+    font-size: 30px;
+    font-weight: 300;
+}
+.container li h6{
+    text-align: left;
+    color: #90c84a;
+    font-family: Myriad Pro;
+    font-size: 20px;
+    font-weight: 300;
+}
+.container .regester{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(115, 115, 115,.6);
+    text-align: left;
+    padding: 10px 0px;
+}
+.regester h3{
+    font-family: Myriad Pro;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 300;
+}
+.regester p{
+    font-family: Myriad Pro;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+.regester a{
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    margin-right: 15px;
+    margin-top: -38px;
+    background: rgba(73,155,234,0.91);
+    background: -moz-linear-gradient(top, rgba(73,155,234,0.91) 39%, rgba(73,155,234,0.93) 50%, rgba(32,124,229,0.96) 68%, rgba(32,124,229,1) 90%);
+    font-family: Myriad Pro;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.regester a:hover{
+    color: #4f4f4f;
+    background: rgba(210,255,82,1);
+    background: -moz-linear-gradient(top, rgba(210,255,82,1) 38%, rgba(205,253,81,1) 40%, rgba(145,232,66,1) 66%, rgba(145,232,66,1) 73%);
+}
+.regester a i{
+    color: #fff;
+    padding-left: 5px;
+}
+/*------------------------slider_part_ends------------------------*/
+.welcome{
+    width: 698px;
+    height: 300px;
+}
+.welcome h1{
+    font-family: Myriad Pro;
+    font-weight: 300;
+    color: #004b8d;
+    padding: 48px 0px 20px 0px;
+    font-size: 25px;
+}
+.welcome_pic{
+    width: 242px;
+    margin-top: 3px;
+}
+.welcome .underline{
+    margin-left: 20px;
+    margin-top: -4px;
+    height: 1px;
+    width: 600px;
+    background: #d0d0d0;
+}
+.welcome_content{
+    width: 456px;
+    height: 200px;
+}
+.welcome_content p{
+    font-family: Myriad Pro;
+    font-weight: 300; 
+    font-size: 14px;
+    padding-bottom: 34px;
+    padding-right: 81px;
+}
+.welcome_content a{
+    padding: 8px 7px 10px 7px;
+    background: #5b5a5a;
+    font-family: Myriad Pro;
+    font-weight: 300; 
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+.welcome_content a:hover{
+    background: #91549d; 
+    transition: all linear .4s;
+}
+.welcome_content i{
+    padding: 8px 8px 9px 8px;
+    background: #91549d;
+    position: absolute;
+    margin-top: -4px;
+    color: #fff;
+}
+.testimonial{
+    width: 301px;
+    height: 308px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.testimonial h1{
+    font-family: Myriad Pro;
+    font-weight: 300;
+    color: #004b8d;
+    padding: 48px 0px 20px 0px;
+    font-size: 25px;
+}
+.testimonial .message{
+    height: 125px;
+    background: url(../images/sms.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+.testimonial .message p{
+    font-family: Myriad Pro;
+    font-weight: 300; 
+    font-size: 13px;
+    padding-bottom: 34px;
+    padding: 10px 0px 10px 8px;
+    text-align: justify;
+    color: #fff;
+}
+.testimonial .manager{
+    width: 200px;
+}
+.testimonial .manager img{
+    position: relative;
+    margin-left: 9px;
+}
+.testimonial h3{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: -47px;
+    font-family: Myriad Pro;
+    font-weight: 400; 
+    font-size: 16px;
+    color: #353535;
+}
+.testimonial .icon{
+    width: 100px;
+}
+.testimonial .fa-angle-left{
+    margin-left: 52px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+/*------------------------welcome_&_testimonial_part_ends------------------------*/
+.work_part{
+    width: 999px;
+}
+.work_part  .fa-angle-right{
+    padding: 9px 8px 7px 7px;
+}
+.work_part .work{
+    width: 333px;
+    height: 308px;
+    box-sizing: border-box;
+    padding-right: 57px;
+}
+.work_part .work i{
+    font-size: 50px;
+    position: absolute;
+    padding: 40px 0px 24px 0px;
+    color: #3a3a3c;
+}
+.work_part .work h2{
+    font-size: 25px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 54px;
+    font-size: 25px;
+    color: #004b8d;
+}
+
+.work_part .work p{
+    padding-top: 24px;
+    font-size: 13px;
+    font-family: Myriad Pro;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.work_part .work a{
+    padding: 8px 7px 10px 7px;
+    background: #5b5a5a;
+    font-family: Myriad Pro;
+    font-weight: 300; 
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: all linear .4s;
+}
+.work_part .work a:hover{
+    background: #91549d;
+}
+.work_part .work .fa-angle-right{
+    padding: 10px 8px 7px 7px;
+    background: #91549d;
+    position: absolute;
+    margin-top: -4px;
+    color: #fff;
+    font-size: 17px;
+}
+.work_part  .fa-angle-right{
+    padding: 9px 8px 7px 7px;
+}
+.work_part .work_products{
+    width: 333px;
+    height: 308px;
+    padding-right: 57px;
+    box-sizing: border-box;
+}
+.work_part .work_products i{
+    font-size: 50px;
+    position: absolute;
+    padding: 40px 0px 24px 0px;
+}
+.work_part .work_products h2{
+    font-size: 25px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 54px;
+    font-size: 25px;
+    color: #004b8d;
+}
+
+.work_part .work_products p{
+    padding-top: 24px;
+    font-size: 13px;
+    font-family: Myriad Pro;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.work_part .work_products a{
+    padding: 8px 7px 10px 7px;
+    background: #5b5a5a;
+    font-family: Myriad Pro;
+    font-weight: 300; 
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: all linear .4s;
+}
+.work_part .work_products a:hover{
+    background: #91549d;
+}
+.work_part .work_products .fa-angle-right{
+    padding: 10px 8px 7px 7px;
+    background: #91549d;
+    position: absolute;
+    margin-top: -4px;
+    color: #fff;
+    font-size: 17px;
+}
+.work_part .work_products h4{
+    font-family: Myriad Pro;
+    font-weight: 400;
+    position: relative;
+    margin-left: 75px;
+    margin-top: 54px;
+    font-size: 25px;
+    color: #004b8d;
+}
+.work_part .work_products img{
+    position: absolute;
+    padding: 20px 0px 24px 0px; 
+}
+.work_part  .fa-angle-right{
+    padding: 9px 8px 7px 7px;
+}
+.work_part .work_company{
+    width: 333px;
+    height: 308px;
+    box-sizing: border-box;
+}
+.work_part .work_company i{
+    font-size: 50px;
+    position: absolute;
+    padding: 40px 0px 24px 0px;
+}
+.work_part .work_company h2{
+    font-size: 25px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 54px;
+    font-size: 25px;
+    color: #004b8d;
+}
+
+.work_part .work_company p{
+    padding-top: 24px;
+    font-size: 13px;
+    font-family: Myriad Pro;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.work_part .work_company a{
+    padding: 8px 7px 10px 7px;
+    background: #5b5a5a;
+    font-family: Myriad Pro;
+    font-weight: 300; 
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: all linear .4s;
+}
+.work_part .work_company a:hover{
+    background: #91549d;
+}
+.work_part .work_company .fa-angle-right{
+    padding: 10px 8px 7px 7px;
+    background: #91549d;
+    position: absolute;
+    color: #fff;
+    margin-top: -4px;
+    font-size: 17px;
+}
+.work_part .work_company h4{
+    font-family: Myriad Pro;
+    font-weight: 400;
+    position: relative;
+    margin-left: 75px;
+    margin-top: 54px;
+    font-size: 25px;
+    color: #004b8d;
+}
+.work_part .work_company img{
+    position: absolute;
+    padding: 20px 0px 24px 0px; 
+}
+/*------------------------work_part_ends------------------------*/
+.service_part{
+    width: 999px;
+}
+.service_part .need{
+    width: 290px;
+    height: 350px;
+    padding-right: 57px;
+}
+.service_part .need img{
+    margin-top: 5px;
+}
+.service_part .need h2{
+    font-family: Myriad Pro;
+    font-weight: 300;
+    font-size: 30px;
+    color: #004b8d;
+    padding-top: 64px;
+    position: relative;
+}
+.service_part .need h2:after{
+    position: absolute;
+    content: '';
+    width: 290px;
+    border-bottom: 1px solid #d7d7d7;
+    bottom: 0px;
+    left: 0px;
+}
+.service_part .need h3{
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 14px;
+    color: #272727;
+}
+.service_part .need p{
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 12px;
+    color: #272727;
+}
+.service_part .service_link{
+    width: 303px;
+    padding-right: 48px;
+}
+.service_part .service_link h2{
+    font-family: Myriad Pro;
+    font-weight: 300;
+    font-size: 30px;
+    color: #004b8d;
+    padding-top: 64px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.service_part .service_link h2:after{
+    position: absolute;
+    content: '';
+    width: 301px;
+    border-bottom: 1px solid #d7d7d7;
+    bottom: 0px;
+    left: 2px;
+}
+.service_part .service_link ul li{
+    padding-bottom: 17px;
+}
+.service_part .service_link ul li a{
+    font-family: Kozuka Gothic Pro;
+    font-size: 12px;
+    font-weight: 400;
+    color: #4f4f4f;
+    transition: all linear .4s;
+}
+.service_part .service_link ul li a:hover{
+    color: #8cc63e;
+}
+.service_part .service_link ul li i{
+    width: 17px;
+    height: 17px;
+    color: #fff;
+    background: #8cc63e;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px; 
+}
+
+.service_part .latest_news{
+    width: 301px;
+}
+.service_part .latest_news h2{
+    font-family: Myriad Pro;
+    font-weight: 300;
+    font-size: 30px;
+    color: #004b8d;
+    padding-top: 64px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.service_part .latest_news h2:after{
+    position: absolute;
+    content: '';
+    width: 301px;
+    border-bottom: 1px solid #d7d7d7;
+    bottom: 0px;
+    left: 2px;
+}
+.service_part .latest_news h4{
+    font-family: Myriad Pro;
+    color: #1866aa;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 9px;
+}
+.service_part .latest_news p{
+    font-family: Myriad Pro;
+    color: #373737;
+    font-size: 13px;
+    font-weight: 400;
+}
+.service_part .latest_news a{
+    font-family: Myriad Pro;
+    color: #1866aa;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+.service_part .latest_news h3{
+    font-family: Myriad Pro;
+    color: #1866aa;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 9px;
+    padding-top: 24px;
+}
+/*------------------------need,service_link,latest_news_part_ends------------------------*/
+.subscribe{
+    height: 58px;
+}
+.subscribe .content{
+    width: 205px;
+}
+.subscribe .content p{
+    font-family: Myriad Pro;
+    font-weight: 400;
+    color: 1866aa;
+    font-size: 22px;
+    color: #1866aa;
+}
+.subscribe .content h1{
+    font-family: Myriad Pro;
+    font-weight: 400;
+    color: 1866aa;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #1866aa;
+}
+.subscribe .form{
+    width: 794px;
+}
+.subscribe .form .name{
+    width: 309px;
+    height: 54px;
+    background: #F9F9F4;
+    border: 2px solid #E1E1DE;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.subscribe .form .email{
+    width: 309px;
+    height: 54px;
+    background: #F9F9F4;
+    border: 2px solid #E1E1DE;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.subscribe .form .submit{
+    width: 124px;
+    height: 54px;
+    font-family: Myriad Pro;
+    font-weight: 700;
+    font-size: 21px;
+    cursor: pointer;
+    background: #3A7098;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 78px;
+}
+.subscribe .form .submit:hover{
+    background: #8cc63e;
+    color:#fff;
+    transition: all linear .4s;
+}
+/*------------------------subscribe_part_ends------------------------*/
+.bg{
+    background: #3e3e3e;
+    height: 260px;
+}
+.border{
+    height: 186px;
+    width: 1px;
+    margin-left: 220px;
+    background: #2d2d2d;
+    margin-top: 40px;
+    position: absolute;
+}
+.border2{
+    height: 186px;
+    width: 1px;
+    margin-left: 475px;
+    background: #2d2d2d;
+    margin-top: 40px;
+    position: absolute;
+}
+.border3{
+    height: 186px;
+    width: 1px;
+    margin-left: 755px;
+    background: #2d2d2d;
+    margin-top: 40px;
+    position: absolute;
+}
+.footer .important{
+    position: relative;
+    width: 265px;
+    height: 260px;
+    background: #3e3e3e;
+}
+.footer .important h2{
+    padding-top: 39px;
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.footer .important ul li{
+    padding-bottom: 8px;
+}
+.footer .important ul li a{
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 13px;
+    color: #d1d1d1;
+    transition: all linear .4s;  
+}
+.footer .important ul li a:hover{
+    color: #fff;
+}
+.gein{
+    width: 200px;
+    height: 260px;
+    background: #3e3e3e;
+}
+.footer .gein h2{
+    margin-left: 20px;
+    padding-top: 39px;
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.footer .important ul li i{
+    color: #d1d1d1;
+    margin-right: 15px;
+}
+.footer .gein .fa-twitter{
+    margin-left: 20px;
+    color: #fff;
+    background: #94dcef;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+.footer .gein .fa-twitter:hover{
+    background: #fff;
+    color: #8fd9ed;
+    transition: all linear .4s;
+}
+.footer .gein .fa-facebook{
+    color: #fff;
+    background: #798db5;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+.footer .gein .fa-facebook:hover{
+    background: #fff;
+    color: #554dfb;
+    transition: all linear .4s;
+}
+.footer .gein .fa-youtube{
+    color: #fff;
+    background: #d83235;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+.footer .gein .fa-youtube:hover{
+    background: #fff;
+    color: #d83235;
+    transition: all linear .4s;
+}
+.footer .gein .fa-user{
+    color: #fff;
+    background: #4d6fb5;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+.footer .gein .fa-user:hover{
+    background: #fff;
+    color: #4d6fb5;
+    transition: all linear .4s;
+}
+.footer .gein .fa-rss{
+    color: #fff;
+    background: #f2863e;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+.footer .gein .fa-rss:hover{
+    background: #fff;
+    color: #f2863e;
+    transition: all linear .4s;
+}
+/*------------------------footer_part_ends------------------------*/
+.copy_bg{
+    background: #282828;
+    height: 62px;
+}
+.copyright{
+    background: #282828;
+    height: 62px;
+}
+.copyright p{
+    font-family:Myriad Pro;
+    font-size: 13px;
+    font-weight: 400;
+    color: #cacaca;
+    line-height: 60px;
+}
+/*------------------------copyright_part_ends------------------------*/
